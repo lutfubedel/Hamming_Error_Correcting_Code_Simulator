@@ -1,0 +1,10 @@
+C:\Users\ltfmu\OneDrive\Masaüstü\Bilgisayar Mİmaridi Projesi\Hamming Error-Correcting Code Simülatörü\bin\Debug\Hamming Error-Correcting Code Simülatörü.exe.config
+C:\Users\ltfmu\OneDrive\Masaüstü\Bilgisayar Mİmaridi Projesi\Hamming Error-Correcting Code Simülatörü\bin\Debug\Hamming Error-Correcting Code Simülatörü.exe
+C:\Users\ltfmu\OneDrive\Masaüstü\Bilgisayar Mİmaridi Projesi\Hamming Error-Correcting Code Simülatörü\bin\Debug\Hamming Error-Correcting Code Simülatörü.pdb
+C:\Users\ltfmu\OneDrive\Masaüstü\Bilgisayar Mİmaridi Projesi\Hamming Error-Correcting Code Simülatörü\obj\Debug\Hamming Error-Correcting Code Simülatörü.csproj.AssemblyReference.cache
+C:\Users\ltfmu\OneDrive\Masaüstü\Bilgisayar Mİmaridi Projesi\Hamming Error-Correcting Code Simülatörü\obj\Debug\Hamming_Error_Correcting_Code_Simülatörü.Form1.resources
+C:\Users\ltfmu\OneDrive\Masaüstü\Bilgisayar Mİmaridi Projesi\Hamming Error-Correcting Code Simülatörü\obj\Debug\Hamming_Error_Correcting_Code_Simülatörü.Properties.Resources.resources
+C:\Users\ltfmu\OneDrive\Masaüstü\Bilgisayar Mİmaridi Projesi\Hamming Error-Correcting Code Simülatörü\obj\Debug\Hamming Error-Correcting Code Simülatörü.csproj.GenerateResource.cache
+C:\Users\ltfmu\OneDrive\Masaüstü\Bilgisayar Mİmaridi Projesi\Hamming Error-Correcting Code Simülatörü\obj\Debug\Hamming Error-Correcting Code Simülatörü.csproj.CoreCompileInputs.cache
+C:\Users\ltfmu\OneDrive\Masaüstü\Bilgisayar Mİmaridi Projesi\Hamming Error-Correcting Code Simülatörü\obj\Debug\Hamming Error-Correcting Code Simülatörü.exe
+C:\Users\ltfmu\OneDrive\Masaüstü\Bilgisayar Mİmaridi Projesi\Hamming Error-Correcting Code Simülatörü\obj\Debug\Hamming Error-Correcting Code Simülatörü.pdb
