@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace Hamming_Error_Correcting_Code_Simülatörü
 {
@@ -188,7 +189,7 @@ namespace Hamming_Error_Correcting_Code_Simülatörü
                 }
 
                 label_gonderilen_veri.Visible = true;
-                label_gonderilen_veri.Text = "Gönderilen Veri : " + complexCode;
+                label_gonderilen_veri.Text = "Depolanan Veri : " + complexCode;
 
                 panel2.Visible = true;
 
@@ -326,6 +327,18 @@ namespace Hamming_Error_Correcting_Code_Simülatörü
         {
             // Uygulamayı yeniden başlat
             Application.Restart();
+        }
+
+        private void button_Youtube_Click(object sender, EventArgs e)
+        {
+            string url = "https://github.com/lutfubedel/Hamming_Error_Correcting_Code_Simulator";
+            Process.Start(url);
+        }
+
+        private void button_Github_Click(object sender, EventArgs e)
+        {
+            string url = "https://github.com/lutfubedel/Hamming_Error_Correcting_Code_Simulator";
+            Process.Start(url);
         }
     }
 }

@@ -41,8 +41,14 @@ namespace Hamming_Error_Correcting_Code_Simülatörü
             this.label_error1 = new System.Windows.Forms.Label();
             this.label_hammingCode = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.panel_result1 = new System.Windows.Forms.Panel();
             this.label_gonderilen_veri = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button_reset = new System.Windows.Forms.Button();
+            this.panel_result2 = new System.Windows.Forms.Panel();
+            this.label_mistake = new System.Windows.Forms.Label();
+            this.label_sendrom = new System.Windows.Forms.Label();
+            this.label_veri_new = new System.Windows.Forms.Label();
             this.label_info2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBox_veri_bit7 = new System.Windows.Forms.TextBox();
@@ -69,18 +75,14 @@ namespace Hamming_Error_Correcting_Code_Simülatörü
             this.textBox_veri_bit5 = new System.Windows.Forms.TextBox();
             this.textBox_veri_bit8 = new System.Windows.Forms.TextBox();
             this.textBox_veri_bit6 = new System.Windows.Forms.TextBox();
-            this.label_sendrom = new System.Windows.Forms.Label();
-            this.label_veri_new = new System.Windows.Forms.Label();
-            this.panel_result2 = new System.Windows.Forms.Panel();
-            this.panel_result1 = new System.Windows.Forms.Panel();
-            this.button_reset = new System.Windows.Forms.Button();
-            this.label_mistake = new System.Windows.Forms.Label();
+            this.button_Github = new System.Windows.Forms.Button();
+            this.button_Youtube = new System.Windows.Forms.Button();
             this.panel_veri.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel_result2.SuspendLayout();
             this.panel_result1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.panel_result2.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label_title
@@ -220,6 +222,16 @@ namespace Hamming_Error_Correcting_Code_Simülatörü
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             // 
+            // panel_result1
+            // 
+            this.panel_result1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.panel_result1.Controls.Add(this.label_hammingCode);
+            this.panel_result1.Controls.Add(this.label_gonderilen_veri);
+            this.panel_result1.Location = new System.Drawing.Point(20, 614);
+            this.panel_result1.Name = "panel_result1";
+            this.panel_result1.Size = new System.Drawing.Size(473, 135);
+            this.panel_result1.TabIndex = 44;
+            // 
             // label_gonderilen_veri
             // 
             this.label_gonderilen_veri.AutoSize = true;
@@ -244,6 +256,59 @@ namespace Hamming_Error_Correcting_Code_Simülatörü
             this.groupBox2.Size = new System.Drawing.Size(1334, 827);
             this.groupBox2.TabIndex = 17;
             this.groupBox2.TabStop = false;
+            // 
+            // button_reset
+            // 
+            this.button_reset.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.button_reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button_reset.Location = new System.Drawing.Point(1150, 604);
+            this.button_reset.Name = "button_reset";
+            this.button_reset.Size = new System.Drawing.Size(165, 44);
+            this.button_reset.TabIndex = 39;
+            this.button_reset.Text = "SIFIRLA";
+            this.button_reset.UseVisualStyleBackColor = false;
+            this.button_reset.Click += new System.EventHandler(this.button_reset_Click);
+            // 
+            // panel_result2
+            // 
+            this.panel_result2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.panel_result2.Controls.Add(this.label_mistake);
+            this.panel_result2.Controls.Add(this.label_sendrom);
+            this.panel_result2.Controls.Add(this.label_veri_new);
+            this.panel_result2.Location = new System.Drawing.Point(842, 403);
+            this.panel_result2.Name = "panel_result2";
+            this.panel_result2.Size = new System.Drawing.Size(473, 195);
+            this.panel_result2.TabIndex = 43;
+            // 
+            // label_mistake
+            // 
+            this.label_mistake.AutoSize = true;
+            this.label_mistake.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label_mistake.Location = new System.Drawing.Point(20, 143);
+            this.label_mistake.Name = "label_mistake";
+            this.label_mistake.Size = new System.Drawing.Size(131, 25);
+            this.label_mistake.TabIndex = 43;
+            this.label_mistake.Text = "label_mistake";
+            // 
+            // label_sendrom
+            // 
+            this.label_sendrom.AutoSize = true;
+            this.label_sendrom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label_sendrom.Location = new System.Drawing.Point(20, 29);
+            this.label_sendrom.Name = "label_sendrom";
+            this.label_sendrom.Size = new System.Drawing.Size(140, 25);
+            this.label_sendrom.TabIndex = 40;
+            this.label_sendrom.Text = "label_sendrom";
+            // 
+            // label_veri_new
+            // 
+            this.label_veri_new.AutoSize = true;
+            this.label_veri_new.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label_veri_new.Location = new System.Drawing.Point(20, 86);
+            this.label_veri_new.Name = "label_veri_new";
+            this.label_veri_new.Size = new System.Drawing.Size(64, 25);
+            this.label_veri_new.TabIndex = 42;
+            this.label_veri_new.Text = "label4";
             // 
             // label_info2
             // 
@@ -550,68 +615,29 @@ namespace Hamming_Error_Correcting_Code_Simülatörü
             this.textBox_veri_bit6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox_veri_bit6.Visible = false;
             // 
-            // label_sendrom
+            // button_Github
             // 
-            this.label_sendrom.AutoSize = true;
-            this.label_sendrom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label_sendrom.Location = new System.Drawing.Point(20, 29);
-            this.label_sendrom.Name = "label_sendrom";
-            this.label_sendrom.Size = new System.Drawing.Size(140, 25);
-            this.label_sendrom.TabIndex = 40;
-            this.label_sendrom.Text = "label_sendrom";
+            this.button_Github.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button_Github.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button_Github.Location = new System.Drawing.Point(1749, 40);
+            this.button_Github.Name = "button_Github";
+            this.button_Github.Size = new System.Drawing.Size(165, 44);
+            this.button_Github.TabIndex = 44;
+            this.button_Github.Text = "GITHUB";
+            this.button_Github.UseVisualStyleBackColor = false;
+            this.button_Github.Click += new System.EventHandler(this.button_Github_Click);
             // 
-            // label_veri_new
+            // button_Youtube
             // 
-            this.label_veri_new.AutoSize = true;
-            this.label_veri_new.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label_veri_new.Location = new System.Drawing.Point(20, 86);
-            this.label_veri_new.Name = "label_veri_new";
-            this.label_veri_new.Size = new System.Drawing.Size(64, 25);
-            this.label_veri_new.TabIndex = 42;
-            this.label_veri_new.Text = "label4";
-            // 
-            // panel_result2
-            // 
-            this.panel_result2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.panel_result2.Controls.Add(this.label_mistake);
-            this.panel_result2.Controls.Add(this.label_sendrom);
-            this.panel_result2.Controls.Add(this.label_veri_new);
-            this.panel_result2.Location = new System.Drawing.Point(842, 403);
-            this.panel_result2.Name = "panel_result2";
-            this.panel_result2.Size = new System.Drawing.Size(473, 195);
-            this.panel_result2.TabIndex = 43;
-            // 
-            // panel_result1
-            // 
-            this.panel_result1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.panel_result1.Controls.Add(this.label_hammingCode);
-            this.panel_result1.Controls.Add(this.label_gonderilen_veri);
-            this.panel_result1.Location = new System.Drawing.Point(20, 614);
-            this.panel_result1.Name = "panel_result1";
-            this.panel_result1.Size = new System.Drawing.Size(473, 135);
-            this.panel_result1.TabIndex = 44;
-            // 
-            // button_reset
-            // 
-            this.button_reset.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button_reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button_reset.Location = new System.Drawing.Point(1150, 604);
-            this.button_reset.Name = "button_reset";
-            this.button_reset.Size = new System.Drawing.Size(165, 44);
-            this.button_reset.TabIndex = 39;
-            this.button_reset.Text = "SIFIRLA";
-            this.button_reset.UseVisualStyleBackColor = false;
-            this.button_reset.Click += new System.EventHandler(this.button_reset_Click);
-            // 
-            // label_mistake
-            // 
-            this.label_mistake.AutoSize = true;
-            this.label_mistake.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label_mistake.Location = new System.Drawing.Point(20, 143);
-            this.label_mistake.Name = "label_mistake";
-            this.label_mistake.Size = new System.Drawing.Size(131, 25);
-            this.label_mistake.TabIndex = 43;
-            this.label_mistake.Text = "label_mistake";
+            this.button_Youtube.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button_Youtube.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button_Youtube.Location = new System.Drawing.Point(1536, 40);
+            this.button_Youtube.Name = "button_Youtube";
+            this.button_Youtube.Size = new System.Drawing.Size(165, 44);
+            this.button_Youtube.TabIndex = 45;
+            this.button_Youtube.Text = "YOUTUBE";
+            this.button_Youtube.UseVisualStyleBackColor = false;
+            this.button_Youtube.Click += new System.EventHandler(this.button_Youtube_Click);
             // 
             // Form1
             // 
@@ -619,9 +645,11 @@ namespace Hamming_Error_Correcting_Code_Simülatörü
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1939, 972);
+            this.ClientSize = new System.Drawing.Size(1939, 1055);
+            this.Controls.Add(this.button_Youtube);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.button_Github);
             this.Controls.Add(this.label_title);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -631,14 +659,14 @@ namespace Hamming_Error_Correcting_Code_Simülatörü
             this.panel_veri.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel_result2.ResumeLayout(false);
-            this.panel_result2.PerformLayout();
             this.panel_result1.ResumeLayout(false);
             this.panel_result1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.panel_result2.ResumeLayout(false);
+            this.panel_result2.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -692,6 +720,8 @@ namespace Hamming_Error_Correcting_Code_Simülatörü
         private System.Windows.Forms.Panel panel_result1;
         private System.Windows.Forms.Button button_reset;
         private System.Windows.Forms.Label label_mistake;
+        private System.Windows.Forms.Button button_Github;
+        private System.Windows.Forms.Button button_Youtube;
     }
 }
 
