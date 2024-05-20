@@ -331,7 +331,7 @@ namespace Hamming_Error_Correcting_Code_Simülatörü
 
         private void button_Youtube_Click(object sender, EventArgs e)
         {
-            string url = "https://github.com/lutfubedel/Hamming_Error_Correcting_Code_Simulator";
+            string url = "https://youtu.be/QilxppfCjoI";
             Process.Start(url);
         }
 
