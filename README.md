@@ -2,7 +2,7 @@
 
 Bu proje, Hamming Error-Correcting Code (Hamming Hata Düzeltme Kodu) simüle eden bir C# masaüstü uygulamasıdır. Kullanıcılar, hata düzeltme kodlarını kolayca oluşturabilir ve test edebilirler.
 
-![Proje Görseli](resimler/simulator.png)
+![Proje Görseli](resimler/simulator1.png)
 ![Proje Görseli](resimler/simulator2.png)
 ![Proje Görseli](resimler/simulator3.png)
 
