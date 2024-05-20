@@ -40,6 +40,6 @@ Uygulamayı çalıştırdıktan sonra, aşağıdaki adımları takip edebilirsin
 3. **Hata Simülasyonu:** Hataları simüle etmek için "Hata Ekle" butonunu kullanın.
 4. **Hata Tespiti ve Düzeltme:** "Hata Tespit ve Düzeltme" butonuna tıklayarak hataları tespit edin.
 
-[Uygulama Videosu](https://www.youtube.com/link)
+[Uygulama Videosu](https://youtu.be/QilxppfCjoI)
 
 Teşekkürler ve iyi kodlamalar!
