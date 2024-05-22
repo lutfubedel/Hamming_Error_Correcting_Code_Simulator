@@ -22,10 +22,10 @@ Projeyi yerel makinenize kurmak için aşağıdaki adımları izleyin:
 
 1. **Depoyu Klonlayın:**
     ```bash
-    git clone https://github.com/kullaniciadi/HammingSimulasyonu.git
+    git clone https://github.com/lutfubedel/HammingSimulasyonu.git
     ```
 2. **Proje Dosyasını Açın:**
-    - Visual Studio veya tercih ettiğiniz C# IDE'sini kullanarak `HammingSimulasyonu.sln` dosyasını açın.
+    - Visual Studio veya tercih ettiğiniz C# IDE'sini kullanarak `Hamming Error-Correcting Code Simülatörü.sln` dosyasını açın.
 3. **Gerekli Bağımlılıkları Yükleyin:**
     - NuGet paketlerini güncelleyin ve gerekli bağımlılıkları yükleyin.
 4. **Uygulamayı Çalıştırın:**
